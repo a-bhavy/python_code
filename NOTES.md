@@ -1,5 +1,11 @@
-# important terminal commands
-## 
+# Important terminal commands
+## This is sub header 2
+### This is sub header 3
+###### This is subheader 6
+1. Ordered list
+- unordered list
+
+
 ```bash
 # (to know the environment)
 conda env list
@@ -18,6 +24,7 @@ https://youtu.be/8dyOS5e1sIo?si=cNfD7wvoHxxqKD5-
 
 ```
 # create a new repository on the command line
+```bash
 echo "# python_code" >> README.md
 git init
 git add README.md
@@ -26,7 +33,8 @@ git branch -M main
 git remote add origin https://github.com/a-bhavy/python_code.git
 git push -u origin main
 
-#or push an existing repository from the command line
+# or push an existing repository from the command line
 git remote add origin https://github.com/a-bhavy/python_code.git
 git branch -M main
 git push -u origin main
+```
